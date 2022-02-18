@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems.csproj",
+      "projectUniqueName": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems.csproj",
       "projectName": "KZ_Week5_LoopProblems",
-      "projectPath": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems.csproj",
+      "projectPath": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems.csproj",
       "packagesPath": "C:\\Users\\kylez\\.nuget\\packages\\",
-      "outputPath": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\obj\\",
+      "outputPath": "F:\\Lone Star Game Design AAS\\GAME-1343\\KZ_Week5_LoopProblems\\KZ_Week5_LoopProblems\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kylez\\AppData\\Roaming\\NuGet\\NuGet.Config",

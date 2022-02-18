@@ -17,9 +17,17 @@ namespace Wk5_LoopProblems_KZ
             Console.WriteLine("================= PROBLEM #1 ====================\n");
             ProblemOne();
 
+            // call problem 2 function
+            Console.WriteLine("\n================= PROBLEM #2 ====================\n");
+            ProblemTwo();
+
             // call problem 3 function
             Console.WriteLine("\n================= PROBLEM #3 ====================\n");
             ProblemThree();
+
+            // call problem 4 function
+            Console.WriteLine("\n================= PROBLEM #4 ====================\n");
+            ProblemFour();
 
             // call problem 5 function
             Console.WriteLine("\n================= PROBLEM #5 ====================\n");
@@ -45,6 +53,29 @@ namespace Wk5_LoopProblems_KZ
             Console.WriteLine("There are " + counter + " numbers between 1 and 100 divisible by 3!");
         }
 
+        // write a program that asks a user to enter numbers, then ok to exit, and print the sum of the entered numbers
+        static void ProblemTwo()
+        {
+            // declare variables
+            int sum = 0;
+            string exitCheck = "";
+
+            // repeat loop until user enters 'OK'
+            while(exitCheck != "OK")
+            {
+                // get a number from user
+                Console.Write("Enter number or 'OK' to exit: ");
+                exitCheck = Console.ReadLine();
+                
+                // if exit condition has not been met, add latest number to sum
+                if (exitCheck != "OK")
+                    sum += int.Parse(exitCheck);
+            }
+
+            // print result (sum of entered numbers)
+            Console.WriteLine("The sum of entered numbers is: " + sum);
+        }
+        
         // write a program to compute the factorial of a number that is entered by the user
         static void ProblemThree()
         {
@@ -64,6 +95,47 @@ namespace Wk5_LoopProblems_KZ
 
             // print result (number factorial)
             Console.WriteLine("The factorial of " + num + " is " + result + "!");
+        }
+
+        // write a program that picks a random number between 1 and 10. Give user 4 chances to guess or they lose
+        static void ProblemFour()
+        {
+            // declare variables
+            int num = 0;
+            int guess = 0;
+            int guessCount = 1; // first guess is guessCount 1
+            int answer = -1;
+
+            // create random object
+            Random random = new Random();
+
+            // use random object to generate random number between 1 and 10
+            answer  = random.Next(1, 10);
+
+            // uncomment the following line for testing purposes
+            // Console.WriteLine(answer);
+
+            // while guess is not equal to answer, and guess limit not exceeded, repeat loop
+            do
+            {
+                // collect guess
+                Console.Write("Guess a number between 1 and 10: ");
+                guess = int.Parse(Console.ReadLine());
+
+                
+                // if guess = answer, congratulate user, otherwise tell them to try again
+                if (guess == answer)
+                    Console.WriteLine("You won!");
+                else if (guessCount < 4) // check if guess count limit reached, try again if not
+                    Console.WriteLine("Try again!");
+                else // check if guess count limit reached, user loses if so
+                    Console.WriteLine("You lost!");
+             
+                // increment counter for # of next guess
+                guessCount++;
+
+            } while (guess != answer && guessCount <= 4);
+
         }
 
         // write a program to find the maximum from a user provided list of numbers
