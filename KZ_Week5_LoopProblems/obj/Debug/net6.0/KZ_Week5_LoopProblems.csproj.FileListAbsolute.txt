@@ -1,0 +1,15 @@
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.csproj.AssemblyReference.cache
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.GeneratedMSBuildEditorConfig.editorconfig
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.AssemblyInfoInputs.cache
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.AssemblyInfo.cs
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.csproj.CoreCompileInputs.cache
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\KZ_Week5_LoopProblems.exe
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\KZ_Week5_LoopProblems.deps.json
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\KZ_Week5_LoopProblems.runtimeconfig.json
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\KZ_Week5_LoopProblems.dll
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\ref\KZ_Week5_LoopProblems.dll
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\bin\Debug\net6.0\KZ_Week5_LoopProblems.pdb
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.dll
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\ref\KZ_Week5_LoopProblems.dll
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.pdb
+F:\Lone Star Game Design AAS\GAME-1343\KZ_Week5_LoopProblems\obj\Debug\net6.0\KZ_Week5_LoopProblems.genruntimeconfig.cache
